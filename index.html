@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Twisdr Login</title>
+    <link rel="stylesheet" type="text/css" href="TwitchStyles.css">
+</head>
+<!-- Sample js insertion -->
+<script type="application/javascript">
+    function AuthenticateLogin() {
+        window.location = "profile.html";
+    }
+</script>
+
+<!-- Header Frame-->
+<div id='TopBar'>
+    <div id='Logo'>
+        <h1>Twisdr</h1>
+    </div>
+</div>
+
+<!-- Login Frame-->
+<div id='LoginBox'>
+    <div id='RightShift'>
+        <div id='LoginButton'>
+            <button type="button" onclick="AuthenticateLogin()">Login with <span style="font-family:Dimitri">Twitch</span>
+            </button>
+        </div>
+    </div>
+    <!-- Stream List -->
+    <div id='TopStreams'>
+        <p style="text-decoration: underline">Top Streams Right Now</p>
+        <table id='TopStreamsTable'>
+            <tr>
+                <th align="left">Streamer</th>
+                <th align="left">Game</th>
+                <th align="left">Viewers</th>
+            </tr>
+            <tr>
+                <td>Name#1</td>
+                <td>Game#1</td>
+                <td>Number#1</td>
+            </tr>
+            <tr>
+                <td>Name#2</td>
+                <td>Game#2</td>
+                <td>Number#2</td>
+            </tr>
+            <tr>
+                <td>Name#3</td>
+                <td>Game#3</td>
+                <td>Number#3</td>
+            </tr>
+            <tr>
+                <td>Name#4</td>
+                <td>Game#4</td>
+                <td>Number#4</td>
+            </tr>
+            <tr>
+                <td>Name#5</td>
+                <td>Game#5</td>
+                <td>Number#5</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div style="clear: both; overflow: hidden; width: 100%"></div>
+<!-- Bottom bar-->
+<div id='BotBar'>
+    <div id='BotBarText'>
+        <p>~ Copyright Edward Fan, Jack Steinberg, all rights reserved ~</p>
+    </div>
+</div>
+
+</html>

@@ -1,0 +1,102 @@
+/* Color Palate
+    -6441a5 -Med Purp
+    -5930a6 -Dark Purp
+    -6f51a6 -Light Purp
+    -333333 -Graphite
+    -cccccc -Light Gray
+    -999999 -Med Gray
+    -666666 -Dark Gray
+*/
+
+body {
+    background-color: #CCCCCC;
+}
+@font-face {
+    font-family: Dimitri;
+    src: url('DIMITRI_.ttf');
+}
+@font-face {
+    font-family: Korolev;
+    src: url('Korolev Bold.otf');
+}
+@font-face {
+    font-family: AlteHaasGrotesk;
+    src: url('AlteHaasGroteskRegular.ttf');
+}
+button[type=button] {
+    background: #6441a5;
+    color: white;
+    width: 288px;
+    height: 48px;
+    font-size: 24px;
+    border: 0;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+}
+button[type=button]:hover {
+    background: #5930a6;
+}
+p {
+    font-family: AlteHaasGrotesk;
+}
+#TopBar {
+    background-color: #333333;
+    margin-top: -1.5%;
+}
+#Logo h1 {
+    text-align: center;
+    font-family: Dimitri;
+    font-size: 48px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+    color: #6441A5;
+    margin-bottom: 12px;
+}
+#LoginBox {
+    background-color: #999999;
+    margin-bottom: 12px;
+    height: 288px;
+}
+#TopStreams {
+    float: left;
+    margin-left: 23%;
+}
+#TopStreamsTable {
+    width: 350%;
+    margin-left: -125%;
+}
+#RightShift {
+    float: right;
+    margin-bottom: 12px;
+    font-family: Korolev;
+}
+#LoginButton {
+    float: right;
+    margin-right: 60%;
+    margin-top: 40%;
+}
+#BotBar {
+    background-color: #333333;
+}
+#BotBarText {
+    float: none;
+    margin-top: auto;
+    color: #6F51A6;
+    font-weight: normal;
+    font-family: AlteHaasGrotesk;
+    font-size: 12px;
+    text-align: center;
+}
+#MidFrame {
+    background-color: #999999;
+    height: 288px;
+    margin-top: -4.6%;
+}
+#ProfileName p {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 72px;
+    font-family: Korolev;
+}
