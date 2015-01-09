@@ -2,23 +2,39 @@
 <html>
 
 <head>
-    <title>Twisdr Profile</title>
+    <title>upstreams profile</title>
     <link rel="stylesheet" type="text/css" href="TwitchStyles.css">
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="functions.js"></script>
 </head>
 
 <!-- Header Frame-->
 <div id='TopBar'>
     <div id='Logo'>
-        <h1>Twisdr</h1>
+        <h1>upstreams</h1>
     </div>
 </div>
 
 <!-- Middle Frame-->
 <div id='MidFrame'>
     <div id='ProfileName'>
-        <p>Profile Name Here</p>
+        <p>Profile Name</p>
+    </div>
+    <table id='ViewSelection'>
+        <tr>
+            <th align="center" id="lCal" onclick="cFunc()">Calendar</th>
+            <th align="left" id="lLis" onclick="lFunc()">List</th>
+            <th align="left" id="lFol" onclick="fFunc()">Following</th>
+        </tr>
+    </table>
+    <div id='Cal'>
+    </div>
+    <div id='Lis'>
+    </div>
+    <div id='Fol'>
     </div>
 </div>
+<div style="clear: both; overflow: hidden; width: 100%"></div>
 <!-- Bottom bar-->
 <div id='BotBar'>
     <div id='BotBarText'>

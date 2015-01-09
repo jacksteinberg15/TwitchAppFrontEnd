@@ -46,7 +46,8 @@ p {
     margin-top: -1.5%;
 }
 #Logo h1 {
-    text-align: center;
+    text-align: left;
+    margin-left: 1%;
     font-family: Dimitri;
     font-size: 48px;
     -webkit-text-stroke-width: .5px;
@@ -99,4 +100,9 @@ p {
     text-align: center;
     font-size: 72px;
     font-family: Korolev;
+    margin-bottom: 24px;
+}
+#ViewSelection {
+    width: 80%;
+    margin-left: 15%;
 }
